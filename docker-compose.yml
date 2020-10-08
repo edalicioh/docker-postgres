@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  postgres:
+    container_name: postgres
+    hostname: postgres
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: edalicio
+      PGDATA: /var/lib/postgres/data/pgdata
+    volumes: 
+      - ./postgres:/var/lib/postgres/data/pgdata
+    ports:
+      - 5431:5432
