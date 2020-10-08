@@ -1,4 +1,6 @@
-# docker-postgres
+# Docker Postgres
+
+![docker](https://img.shields.io/badge/docker-compose-brightgreen "docker") ![banco](https://img.shields.io/badge/banco-postgres-green "banco")
 
 `sudo docker cp <arquivo> <container>:<arquivo>`  
 
