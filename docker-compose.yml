@@ -7,7 +7,7 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_PASSWORD: edalicio
+      POSTGRES_PASSWORD: senha
       PGDATA: /var/lib/postgres/data/pgdata
     volumes: 
       - ./postgres:/var/lib/postgres/data/pgdata
